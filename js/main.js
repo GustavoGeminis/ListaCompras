@@ -103,8 +103,7 @@ agregar.addEventListener("click", (event)=>{
     <td>$ ${precio}</td>
     </tr>`;
 
-    cantidadF = cantidadF + cantidad;
-
+    cantidadF += Math.ceil(cantidad);
     document.getElementById("totalProductos").innerHTML=cantidadF;
 
     console.log(tmp);
