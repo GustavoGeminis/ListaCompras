@@ -2,4 +2,4 @@
 
 ## document -> `<body>`
 
-**Obtiene el elemento con ese id** 
+**Obtiene el elemento con ese id** `document.getElementById()`
